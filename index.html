@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FreakNote</title>
+</head>
+<body>
+    <div class="appbar">
+        <div class="first-part">
+            <a class="brand" href="index.html">FreakNote</a>
+            <span class="Directory">Home \ Project FreakNote</span>
+        </div>
+        <div class="second-part">
+            <div class="menu"><img src="static\pic\hamburger-menu-svgrepo-com.svg" alt="hamburger-menu" class="img-1"></div>
+        </div>
+    </div>
+    <div class="content">
+        <span class="title">To-Do App</span>
+        <div class="divider"></div>
+        <div class="to-dos">
+            <div class="add-task">
+                <span class="sub-title">Add-task</span>
+                <textarea class = "task-box" name="tambah-task" id="tambah-task-box" cols="40" rows="3" placeholder="Input the task"></textarea>
+                <input type="button" value="Add-Task" class="submit-button" id="btn-submit">
+            </div>
+
+            <div class="tasks">
+
+                <div class="task-list" id='active' >
+                    <span class="sub-title">Active Task</span>
+                    <div class="divider2"></div>
+                    <!-- Here comes the task -->
+                </div>
+
+                <div class="task-list" id="done">
+                    <span class="sub-title">Offline Task</span>
+                    <div class="divider2"></div>
+                     <!-- Here comes the task -->
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <script src=".\js\index.js" type="module">
+    </script>
+    <script src=".\js\storage.js" type = 'module'>
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.debug{
+    background-color: red;
+}
+
+.appbar{
+    display: flex;
+    height: 4vh;
+    border-bottom: 1px solid black;
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px black;
+}
+
+.brand{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.first-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.img-1{
+    height: 2rem;
+}
+
+.content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.divider{
+    margin: 0.5rem;
+    border: 1px black solid;
+    width: 75%;
+}
+
+.divider2{
+    margin: 0.5rem;
+    border: 1px black solid;
+}
+
+.to-dos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    flex-basis: 20rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+    gap: 2rem;
+}
+.add-task{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.task-box{
+    border-radius: 6px;
+    border: 2.3px solid black;
+
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    flex-basis: 20rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.4rem 2rem;
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+    width: 24rem;
+}
+
+.task-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.active-task{
+    background-color: rgb(10, 207, 10);
+}
+
+.off-task{
+    background-color: rgb(221, 64, 37);
+}
+
+.task-status{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button{
+    padding: 0.2rem 1.2rem;
+    background-color: rgb(235, 225, 225);
+    border-radius: 8px;
+}
+
+
+
+.submit-button{
+    background-color: greenyellow;
+    width: 7rem;
+    height: 1.8rem;
+    border-radius: 8px;
+}
+
